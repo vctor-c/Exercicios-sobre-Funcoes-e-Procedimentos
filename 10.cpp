@@ -22,7 +22,7 @@ int main (){
     if (r==1){
     cout << "Par" << endl;
     }else if (r==0) {
-    cout << "Impar" << endl;
+    cout << "Ímpar" << endl;
     }
 
 return 0;
