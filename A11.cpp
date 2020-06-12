@@ -12,11 +12,10 @@ de 9,0 a 10,0     A
 */
 
 #include <iostream>
-#include <string.h>
 
 using namespace std;
 
-void conceito (double nota, string &result){
+void conceito (double nota, char &result){
 
     if (nota > 0 && nota < 5){
         result = 'D';
@@ -25,14 +24,14 @@ void conceito (double nota, string &result){
     } else if (nota >= 7 && nota < 9){
         result = 'B';
     } else if (nota >= 9){
-        result = 'A das da';
+        result = 'A';
     }
 }
 
 int main (){
 
 double nota;
-string result;
+char result;
 
 cin >> nota;
 
